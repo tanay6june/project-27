@@ -9,7 +9,7 @@ class BOB {
       this.x=x;
       this.y=y;
       this.r=r;
-      this.BOB=Bodies.Circle(this.x,this.y,this.r/2,options)
+      this.BOB=Bodies.circle(this.x,this.y,this.r/2,options)
       World.add(world,this.BOB);
    
    }
